@@ -1,0 +1,138 @@
+/* login */
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+display: none;
+}
+/* Estilo botón clicable */
+input[id^="spoiler"] + label {
+display: block;
+width: 200px;
+padding: 5px 20px;
+background: #111;
+color: #FFF;
+cursor: pointer;
+text-align: center;
+}
+/* Estilo botón cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label {
+color: #333;
+background: #ccc;
+}
+/* Estilo caja SPOILER (inicialmente oculto) */
+input[id^="spoiler"] ~ .spoiler {
+width: 90%;
+height: 0;
+overflow: hidden;
+opacity: 0;
+margin: 10px auto 0; 
+}
+/* Estilo caja SPOILER cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label + .spoiler{
+width: 300px;
+height: auto;
+border-radius: 10px;
+background:transparent url(../images/black.png);
+opacity: 1;
+}
+p{
+	color: #FFF;
+}
+h1{
+	color: #FFF;
+	text-align: center;
+	background-color: #777;
+	border-radius: 5px;
+}
+#footer{
+	display: block;
+	width: 100%;
+	color: #FFF;
+	background:transparent url(../images/black.png);
+	margin-top: 630px;
+	border-radius: 100px;
+}
+#form{
+	background-color: #FFF;
+	background:transparent url(../images/black.png);
+	height: 400px;
+	width: 400px;
+	float: right;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+.corre{
+	height: 20px;
+	width: 250px;
+	display: block;
+	margin: 25px;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+.pas{
+	height: 20px;
+	width: 250px;
+	display: block;
+	margin: 25px;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+.facebook{
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.login{
+	height: 30px;
+	width: 250px;
+	margin: 25px;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.acepto{
+	color: #FFF;
+	text-align: center;
+	background-color: #777;
+	border-radius: 5px;
+	width: 100%;
+}
+.nombre{
+	height: 30px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+.apellidos{
+	height: 30px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+	margin-top: 5px;
+	border-radius: 6px;
+}
+.correo{
+	height: 30px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+	margin-top: 5px;
+	border-radius: 6px;
+}
+.pass{
+	height: 30px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+	margin-top: 5px;
+	border-radius: 6px;
+}
+.registrar{
+	height: 30px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+}

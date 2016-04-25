@@ -1,0 +1,375 @@
+@media screen and (max-width:500px ) {
+	a{
+		display: block;
+		margin: 10px;
+
+	}
+	header{
+		height: 250px;
+	}
+	header nav {
+		display: block;
+		width: 300px;
+	}
+	header nav ul li{
+		width: 300px;
+		display: block;
+		margin: 0px -10px -10px -40px;  
+		background-color: #f45;
+		border-radius: 0 0 10px 10px;	
+	}
+	header nav ul li a{
+		display: block;
+		float: left;
+		margin: 0px 0px 0px -40px;
+		margin-top: 10px;
+		position: absolute;
+		text-align: center;
+	}
+	footer{
+		height: 200px;
+	}
+	.flexsearch--form{
+		display: none;
+	}
+	.video{
+		display: none;
+	}
+	#publicidad{
+		display: none;
+	}
+	#tposts{
+			margin: 100px 0 0 10px;
+	}
+}
+@media screen and (min-width: 768px ) {
+	a{
+		display: inline-block;
+		margin: 5px;
+	}
+	header{
+		height: 100px;
+	}
+	header nav ul{
+		margin: 10px 20px 15px 0px;
+		text-align: center;
+	}
+	header nav ul li{
+		margin: 0 10px 0 10px;
+		margin-top: -15px;
+	}
+	header nav ul li a{
+		margin: 5px 5px 5px 5px;
+	}
+	footer{
+		height: 100px;
+	}
+	.video{
+		width: 600px;
+		height: 300px;
+		margin: 50px 10px 50px 0;
+	}
+	.items{
+		margin-left: 50px;
+	}
+	#tposts{
+			margin: 100px 0 0 50px;
+
+	}
+	#publicidad{
+		width: 600px;
+		margin: 10px 0 2px 80px;
+	}
+	#listado{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 980px ) {
+	
+	a{
+		display: inline-block;
+		margin: 5px;
+	}
+	header{
+		height: 100px;
+	}
+	footer{
+		height: 100px;
+	}
+	.video{
+		width: 600px;
+		height: 300px;
+		margin: 10px 10px 50px 300px;
+
+	}
+	.items{
+		margin-left: 150px;
+	}
+	#tposts{
+			width: 400px;
+			display: inline-block;
+			margin: 60px;
+
+	}
+	#publicidad{
+		width: 800px;
+		margin: 10px 0 2px 200px;
+	}
+	#listado{
+		display: inline-block;
+	}
+	#title{
+		margin-left: 450px;
+	}
+}
+a{
+	color: #FFF;
+}
+body{
+	background-color: #E1E1E1;
+}
+footer{
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 10% 10%, 10% 100%, from(white), to(black));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(top, gray, black);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, gray, black);
+    /* Opera 11.10+ */
+    background: -o-linear-background(top, gray, black);
+    /* IE 10 */
+    background: -ms-linear-background(top, gray, black);
+    /* estándar */ 
+    background: linear-background(top, gray, black);
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+header{
+	background-color: #0DAED7;
+	margin: 0px;
+	display: block;
+	border-radius: 40px;
+}
+header nav{
+	background-color: #f45;
+	border-radius: 5px;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	margin: 25px 0 0 0;
+	width: 80%;
+	
+}
+header nav .menu{	
+  display: block;
+  height: 7px;
+}
+header nav .menu li{
+ 	cursor: pointer;
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	height: 50px;
+ 	text-align: center;
+ 	float: none;
+ }
+header nav .menu li a{
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Helvetica', sans-serif;
+	display: inline-block;
+}
+h1{
+	color: #FFF;
+	margin: 1px;
+}
+nav ul li:hover
+{
+	background-color: #0EBFD9;
+}
+p{
+	margin: 3px;
+}
+/*buscador*/
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+.flexsearch--input {
+  	width: 100%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 30px;
+  	padding: 0 46px 0 10px;
+	border-color: #888;
+  	border-radius: 5px; /* (height/2) + border-width */
+  	border-style: solid #f45;
+	border-width: 5px;
+	margin-top: 28px;
+  	color: #f45;
+  	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+.flexsearch--submit {
+  	cursor: pointer;
+  	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+ 	padding: 0;
+  	border: none;
+	margin-top: 15px; /* margin-top + border-width */
+  	margin-right: 5px; /* border-width */
+	background: transparent;
+  	color: #f45;
+  	font-family: 'Helvetica', sans-serif;
+  	font-size: 40px;
+  	line-height: 60px;
+}
+.flexsearch--wrapper{
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+.item:hover
+{
+	background-color: #777;
+}
+.itm{
+	height: 20px;
+	display:inline-block;
+	margin: 3px;
+	margin-bottom: -2px;
+}
+.item{
+	height: 30px;
+	color: blue;
+	display: block; 
+	margin: 30px;
+	
+}
+.items{
+	color: #0DAED7;
+	height: 50px;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: none;
+	
+}	
+.logo{
+	width: 100%;
+	height: 300px;
+}
+.temas{
+	background-color: #777;
+	width: 50%;
+	height: 50px;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+.temario{
+	background-color: #f45;
+	height: 50%;
+	margin: 5px;
+	margin-top: 5px;
+}
+.flecha{
+	float: right;
+	margin: 5px;
+	height: 50%;
+	cursor: pointer;
+}
+
+.video{
+	border: 10px solid #f46;
+	border-top: 30px solid #f46;
+	border-radius: 4px;
+	scroll-behavior: smooth;
+	pointer-events: visible;
+
+}
+#aprende{
+	text-align: center;
+	background-color: #F2F1F1;
+	height: 100%;
+	margin: 50px 0 0 100px;
+	width: 80%;
+}
+#continuara:hover
+	{
+
+	color: #4A90E2;
+}
+#continuara{
+	color: #5C5C5C;
+	cursor: pointer;
+}
+#losposts{
+	font-family: arial "open zans";
+	font-size: 20px;
+	color: #222;
+
+} 
+#posts{
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 5px;
+	color: #111;
+	text-align: center;
+}
+#publicidad{
+	height: 100px;
+	cursor: pointer;
+}
+
+#products{
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: none;
+	text-align: center;
+}
+#title{
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+}
+#tposts{
+	border: 5px solid #0DAED7;
+	border-radius: 25px;
+	border-top: 0px;
+	height: 100%;
+	background-color: #FFF;
+	margin-bottom: 2px;
+}
+#listado{
+	text-align: left;
+	
+}
+#rutina{
+	margin-top: 3px;
+	margin-left: 0px;
+	width: 30px;
+	height: 30px;
+}

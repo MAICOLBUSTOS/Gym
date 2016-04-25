@@ -1,0 +1,244 @@
+@media screen and (max-width:360px ) {
+	header{
+		height: 250px;
+	}
+	header nav {
+		display: block;
+		width: 300px;
+	}
+	header nav ul li{
+		width: 300px;
+		display: block;
+		margin: 0px -10px -10px -40px;  
+		background-color: #f45;
+		border-radius: 0 0 10px 10px;	
+	}
+	header nav ul li a{
+		display: block;
+		float: left;
+		margin: 0px 0px 0px -40px;
+		margin-top: 10px;
+		position: absolute;
+		text-align: center;
+	}
+	.flexsearch--form{
+		display: none;
+	}
+	.video{
+		display: none;
+	}
+	#publicidad{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px ) {
+	header{
+		height: 100px;
+	}
+	header nav ul{
+		margin: 10px 20px 15px 0px;
+		text-align: center;
+	}
+	header nav ul li{
+		margin: 0 10px 0 10px;
+		margin-top: -15px;
+	}
+	header nav ul li a{
+		margin: 5px 5px 5px 5px;
+	}
+	.video{
+		width: 600px;
+		height: 300px;
+		margin: 50px 10px 50px 0;
+	}
+}
+@media screen and (min-width: 980px ) {
+	
+	.video{
+		width: 600px;
+		height: 300px;
+		margin: 50px 10px 50px 100px;
+	}
+}
+body{
+	background-image: url("proyecto/img/fondo.jpg");	
+}
+header{
+	background-color: #777;
+	margin: 0px;
+	display: block;
+}
+header nav{
+	background-color: #f45;
+	border-radius: 5px;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	margin: 25px 0 0 0;
+	width: 80%;
+	
+}
+header nav ul{	
+  display: block;
+  height: 7px;
+}
+header nav ul li{
+ 	cursor: pointer;
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	height: 50px;
+ 	text-align: center;
+ 	float: none;
+ }
+header nav ul li a{
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Helvetica', sans-serif;
+	display: inline-block;
+	
+}
+nav ul li:hover
+{
+	background-color: #0DAED7;
+}
+/*buscador*/
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+.flexsearch--input {
+  	width: 100%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 30px;
+  	padding: 0 46px 0 10px;
+	border-color: #888;
+  	border-radius: 5px; /* (height/2) + border-width */
+  	border-style: solid #f45;
+	border-width: 5px;
+	margin-top: 28px;
+  	color: #f45;
+  	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+.flexsearch--submit {
+  	cursor: pointer;
+  	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+ 	padding: 0;
+  	border: none;
+	margin-top: 15px; /* margin-top + border-width */
+  	margin-right: 5px; /* border-width */
+	background: transparent;
+  	color: #f45;
+  	font-family: 'Helvetica', sans-serif;
+  	font-size: 40px;
+  	line-height: 60px;
+}
+.flexsearch--wrapper{
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+.temas{
+	background-color: #777;
+	width: 50%;
+	height: 50px;
+}
+.temario{
+	background-color: #f45;
+	height: 50%;
+	margin: 5px;
+	margin-top: 5px;
+}
+.flecha{
+	float: right;
+	margin: 5px;
+	height: 50%;
+	cursor: pointer;
+}
+.logo{
+	width: 300px;
+	height: 80px;
+	margin: 0px;
+	cursor: pointer;
+}
+.video{
+	border: 10px solid #fff;
+	border-top: 30px solid #fff;
+	border-radius: 4px;
+	scroll-behavior: smooth;
+	pointer-events: visible;
+
+}
+#aprende{
+	text-align: center;
+	background-color: #F2F1F1;
+	height: 100%;
+	margin: 50px 0 0 100px;
+	width: 80%;
+}
+#continuara:hover
+	{
+
+	color: #4A90E2;
+}
+#continuara{
+	color: #5C5C5C;
+	cursor: pointer;
+}
+#losposts{
+	font-family: arial "open zans";
+	font-size: 20px;
+	color: #fff;
+}
+#page{
+	background-color: black;
+	border: 5px solid #fff;
+	height: 100%;
+	margin: 100px 0 0 110px;
+	width: 80%;
+} 
+#posts{
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 10px;
+	color: #fff;
+}
+/*
+#publicidad{
+	background-color: #F2F1F0;
+	float: right;
+	height: 100%;
+	margin: 10px 0 0 0;
+}
+*/
+#products{
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: none;
+	text-align: center;
+}
+#tposts{
+	border: 5px solid #fff;
+	height: 100%;
+	background-size: #fff;
+}
